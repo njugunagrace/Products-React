@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #ece7eb;
+    padding: 30px;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+  }
+  .navbar a {
+      color: #0A0A0A;
+      text-decoration: none;
+    }
+    a:hover::before {
+      color: #000;
+    }
+   a:hover::after {
+      color: #000;
+      text-decoration: underline;
+    }
+    .button{
+      background-color: #D715BA;
+      border: 1px solid #3C3A3A;
+      width: 8%;
+      height: 20%;
+   }
+
+
+
+
+
