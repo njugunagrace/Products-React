@@ -1,8 +1,8 @@
-import Login from './login';
-import Navbar from './navbar';
+import Login from './LoginPage';
+import Navbar from './NavbarPage';
 import { BrowserRouter,Routes,Route } from "react-router-dom";
-import Products from './Products'
-import ProductDetailsPage from './productdetails';
+import Products from './Products';
+import ProductDetailsPage from './ProductsDetsPage';
 import AddProductForm from './AddProduct';
 
 function App() {

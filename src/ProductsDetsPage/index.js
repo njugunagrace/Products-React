@@ -6,8 +6,9 @@ import  {AiFillStar} from "react-icons/ai";
 import { Link,use } from 'react-router-dom';
 
 const ProductDetailsPage = () => {
-  const { productId } = useParams();
   const [product, setProduct] = useState(null);
+  const { productId } = useParams();
+
   useEffect(() => {
     const getProductDetails = async () => {
       try {
